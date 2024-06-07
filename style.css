@@ -41,10 +41,10 @@
 }
 .guesses>h3{
     font-size: 2.5vh;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 .guesses{
-    height:35vh;
+    height:34vh;
 }
 .guessCount{
     color:var(--dark-color);
