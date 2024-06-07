@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cryptic word</title>
+
+</head>
+
+<body>
+  <center>
+    <img class="logo" src="Images/Logo.png"></img>
+    <div class="hint">
+      <h4 class="difficulty">HARD</h4>
+      <h1 class="hintTitle">Description</h1>
+      <h1 class="description"></h1>
+    </div>
+    <div class="wordBox">
+      <div class="letter">
+        <h1 class="word"></h1>
+        <h1 class="underline">_</h1>
+      </div>
+    </div>
+    <input class="guess"></input>
+    <button class="submit" onclick="submit()">SUBMIT</button>
+    <h4 class="guessCount">Guessed: 0 / 5</h4>
+    <div class="guesses">
+      <h3 id="guess1"></h3>
+      <h3 id="guess2"></h3>
+      <h3 id="guess3"></h3>
+      <h3 id="guess4"></h3>
+      <h3 id="guess5"></h3>
+    </div>
+    <h2 class="tip"></h2>
+    <div id="buttons-container">
+      <button onclick="reveal()">Reveal</button>
+      <button onclick="skip()">Skip</button>
+      <button onclick="reset()">Reset</button>
+    </div>
+  </center>
+
+
+  <script src="words.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>

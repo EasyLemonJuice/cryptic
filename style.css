@@ -1,0 +1,86 @@
+#buttons-container {
+    
+    margin-top: 4vh;
+    width: 50%;
+    padding: 0 20px;
+
+}
+.difficulty{
+    margin-top: 0.5vh;
+    height:1vh;
+    font-size:1.5vh;
+    color:white;
+}
+.logo{
+    height:10vh;
+}
+.hint{
+    background-color: var(--dark-color);
+    border-radius: 10px;
+    width:30vw;
+    border:1px solid white;
+    height:13vh;
+    min-width: 400px;
+
+}
+.hintTitle{
+    margin-top: -.75vh;
+    background-color: white;
+    font-size: 2vh;
+    color:var(--dark-color)
+}
+.description{
+    font-size: 2.5vh;
+    color:white;
+}
+.underline{
+    margin-top: -50px;
+}
+.wordBox>h1{
+    padding: 0.5vh;
+    font-size: 5vh;
+    height:4vh;
+    width:1vw;
+}
+.guesses>h3{
+    font-size: 2.5vh;
+    font-weight: lighter;
+}
+.guesses{
+    height:35vh;
+}
+.guessCount{
+    color:var(--dark-color);
+    margin-top: .5vh
+}
+.letter{
+    display: inline-block;
+    width:30px;
+}
+.submit{
+    min-width: 330px;
+    margin-top:1vh;
+    width:30vw;
+    height:5vh;
+    line-height: 2.5vh;
+}
+.tip{
+    color:black;
+    margin-top: -5vh;
+    height:2vh;
+}
+.guess{
+    min-width: 330px;
+    display: block;
+    border:2px solid var(--dark-color);
+    color:black;
+    border-radius: 5px;
+    background-color: white;
+    width:30vw;
+    height:5vh;
+    text-align: center;
+    font-size: 4vh;
+}
+#buttons-container>button{
+    min-width:100px
+}
