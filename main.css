@@ -56,3 +56,12 @@ button:hover{
     75% {background-color: red;}
     100% {background-color: var(--main-color);}
 }
+
+@media only screen and (max-height: 700px) {
+    .logo {
+      display:none
+    }
+    .hint{
+        margin-top: 5vh;
+    }
+  }
