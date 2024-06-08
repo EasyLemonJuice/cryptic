@@ -8,4 +8,13 @@ let days = {
         "hint": "It's cold",
         "difficulty": "Easy"
     },
+    "2024-06-07": {
+        "answer": "Dim",
+        "sentence": {
+            "description": "Ten cents is pointlessly",
+            "definition": "dull"
+        },
+        "hint": "The light is barely showing",
+        "difficulty": "Easy"
+    },
 }
