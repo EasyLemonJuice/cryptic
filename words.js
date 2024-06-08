@@ -9,12 +9,12 @@ let days = {
         "difficulty": "Easy"
     },
     "2024-06-07": {
-        "answer": "dim",
+        "answer": "coast",
         "sentence": {
-            "description": "Ten cents is pointlessly",
-            "definition": "dull"
+            "description": "Start fishing around the globe's",
+            "definition": "shoreline"
         },
-        "hint": "The light is barely showing",
-        "difficulty": "Easy"
+        "hint": "'O' can represent the globe",
+        "difficulty": "Hard"
     },
 }
