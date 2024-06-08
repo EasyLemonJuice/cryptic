@@ -63,7 +63,7 @@ function submit(){
             
             gameover = true
             guesses.push(guess)
-            document.classList.add("victory")
+            document.body.classList.add("victory")
         }else if (!guesses.includes(guess)){
             guesses.push(guess)
             let additionalText = ""
@@ -76,7 +76,7 @@ function submit(){
                 gameover = true
                 displayWord()
                 setText("❌ GAME OVER ❌",true)
-                document.classList.add("loss")
+                document.body.classList.add("loss")
             }
             currentGuess+=1
         }else{
