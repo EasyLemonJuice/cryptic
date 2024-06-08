@@ -170,7 +170,7 @@ function loadSave(data){
             setText("❌ GAME OVER ❌",true)
         }
     }
-
+}
 
 function setData(){
     savedData['guesses'] = guesses
