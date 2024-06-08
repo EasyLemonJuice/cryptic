@@ -9,7 +9,7 @@ let days = {
         "difficulty": "Easy"
     },
     "2024-06-07": {
-        "answer": "Dim",
+        "answer": "dim",
         "sentence": {
             "description": "Ten cents is pointlessly",
             "definition": "dull"
