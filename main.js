@@ -60,8 +60,10 @@ function submit(){
             addToList("✅"+guess,currentGuess+1)
             displayWord()
             setText("🎉 You got it in "+(currentGuess+1)+" 🎉",true)
-            document.body.classList.add("victory")
+            
             gameover = true
+            guesses.push(guess)
+            document.classList.add("victory")
         }else if (!guesses.includes(guess)){
             guesses.push(guess)
             let additionalText = ""
@@ -74,7 +76,7 @@ function submit(){
                 gameover = true
                 displayWord()
                 setText("❌ GAME OVER ❌",true)
-                document.body.classList.add("loss")
+                document.classList.add("loss")
             }
             currentGuess+=1
         }else{
