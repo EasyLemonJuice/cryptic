@@ -164,9 +164,13 @@ function loadSave(data){
 
     if (gameover){
         displayWord()
-        setText("❌ GAME OVER ❌",true)
+        if (guesses[currentGuess] == days[currentDate]['answer']){
+            setText("🎉 You got it in "+(currentGuess+1)+" 🎉",true)
+        }else{
+            setText("❌ GAME OVER ❌",true)
+        }
     }
-}
+
 
 function setData(){
     savedData['guesses'] = guesses
