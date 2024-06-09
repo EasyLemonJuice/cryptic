@@ -17,4 +17,13 @@ let days = {
         "hint": "'O' can represent the globe",
         "difficulty": "Hard"
     },
+    "2024-06-08": {
+        "answer": "abandon",
+        "sentence": {
+            "description": "A band on",
+            "definition": "leave"
+        },
+        "hint": "A group is also a band",
+        "difficulty": "Medium"
+    },
 }
