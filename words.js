@@ -26,4 +26,14 @@ let days = {
         "hint": "A group is also a band",
         "difficulty": "Medium"
     },
+     "2024-06-09": {
+        "answer": "ditch",
+        "sentence": {
+            "definition": "left to",
+            "description": "die constantlly with itch"
+            
+        },
+        "hint": "the opposite of a constant is a vowel",
+        "difficulty": "Easy"
+    },
 }
