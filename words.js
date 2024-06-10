@@ -30,6 +30,16 @@ let days = {
         "answer": "ditch",
         "sentence": {
             "definition": "left to",
+            "description": "die constantly with itch"
+            
+        },
+        "hint": "the opposite of a constant is a vowel",
+        "difficulty": "Easy"
+    },
+    "2024-06-10": {
+        "answer": "ditch",
+        "sentence": {
+            "definition": "left to",
             "description": "die constantlly with itch"
             
         },
