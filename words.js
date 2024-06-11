@@ -37,13 +37,13 @@ let days = {
         "difficulty": "Easy"
     },
     "2024-06-10": {
-        "answer": "ditch",
+        "answer": "invest",
         "sentence": {
-            "definition": "left to",
-            "description": "die constantlly with itch"
+            "definition": "Put money away",
+            "description": "in waistcoat"
             
         },
-        "hint": "the opposite of a constant is a vowel",
-        "difficulty": "Easy"
+        "hint":"a waistcoat is also a vest",
+        "difficulty": "Medium"
     },
 }
