@@ -1,5 +1,6 @@
 #buttons-container {
-    margin-top: 4vh;
+    position:fixed;
+    bottom:5px;
     width: 100vw;
 }
 .difficulty{
