@@ -57,7 +57,7 @@ function submit(){
     if (guess != "" && !gameover){
         input.value = ""
         if (guess == days[currentDate]['answer']){
-            addToList("✅"+guess,currentGuess+1)
+            addToList("✅ "+guess,currentGuess+1)
             displayWord()
             setText("🎉 You got it in "+(currentGuess+1)+" 🎉",true)
             
@@ -156,11 +156,16 @@ function loadSave(data){
         console.log(guess)
         guessCount+=1
         let additionalText = ""
-        if (hints[guessCount]){
+        if (guess == days[currentDate]['answer']){
+            addToList("✅ "+guess,currentGuess+1)
+        }else if (hints[guessCount]){
             let text = hints[guessCount]()
             additionalText = " 💡"+text
+            addToList("❌ "+guess+additionalText,guessCount+1)
+        }else{
+            addToList("❌ "+guess+additionalText,guessCount+1)
         }
-        addToList("❌ "+guess+additionalText,guessCount+1)
+        
     }
     document.querySelector(".guessCount").textContent = "Guessed: "+currentGuess+" / 5"
 
